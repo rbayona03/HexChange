@@ -1,0 +1,30 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color,
+.HexBTN {
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.color:hover,
+.HexBTN:hover {
+  background-color: aqua;
+}
+
+.container {
+  text-align: center;
+}
+
+.hexColor {
+  text-transform: capitalize;
+}
+
+.Hex {
+  font-size: 36px;
+}
